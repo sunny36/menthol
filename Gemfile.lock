@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    ffi (1.9.14)
+    i18n (0.7.0)
+    money (6.7.1)
+      i18n (>= 0.6.4, <= 0.7.0)
+      sixarm_ruby_unaccent (>= 1.1.1, < 2)
+    rubyzip (1.2.0)
+    selenium-webdriver (3.0.1)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    sixarm_ruby_unaccent (1.1.1)
+    watir (6.0.2)
+      selenium-webdriver (~> 3.0)
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  money
+  watir
+
+BUNDLED WITH
+   1.11.2
