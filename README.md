@@ -1,5 +1,11 @@
 # Menthol
 
+## Requirements
+
+```
+brew install chromedriver
+```
+
 **Warning**: This project is a work in progress.
 
 Menthol is a web scraper that fetch your Thai bank account balances and sum
@@ -30,9 +36,6 @@ This library currently support:
   - Kasikornbank
   - Local (the amount must be given in the configuration file as the
     smallest currency subunit)
-
-You'll need to instal the `watir` gem. You'll also need Chrome installed and
-`chrome-webdriver` somewhere on your PATH.
 
 TODO:
 
